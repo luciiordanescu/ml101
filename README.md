@@ -31,5 +31,7 @@ continuumio/miniconda3 ^
 /opt/conda/bin/conda install -c conda-forge matplotlib -y 
 /opt/conda/bin/conda install -c anaconda seaborn pandas scikit-learn -y 
 /opt/conda/bin/conda install jupyter -y --quiet && /opt/conda/bin/jupyter notebook --notebook-dir=/cntmnt --ip='*' --port=8888 --no-browser --allow-root
+
+
 ```
 
